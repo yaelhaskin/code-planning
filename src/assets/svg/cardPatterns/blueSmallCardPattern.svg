@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 319.54 530.39">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-1, .cls-3 {
+        fill: #00004d;
+      }
+
+      .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-3, .cls-4 {
+        stroke: #00004d;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <circle class="cls-3" cx="159.77" cy="41.68" r="4.71"/>
+      <g>
+        <g>
+          <path class="cls-4" d="M22.03,18.48v493.44h275.47V18.48H22.03Z"/>
+          <path class="cls-2" d="M0,0v530.39h319.54V0H0Z"/>
+        </g>
+        <g>
+          <g>
+            <path class="cls-4" d="M276.27,91.57c-7.59,0-14.59-2.54-20.21-6.8l-.15-50.94,24.52-.36v26.24h-49.42c-4.26-5.62-6.8-12.62-6.8-20.21"/>
+            <path class="cls-4" d="M43.27,91.57c7.59,0,14.59-2.54,20.21-6.8l.15-50.94-24.52-.36v26.24h49.42c4.26-5.62,6.8-12.62,6.8-20.21"/>
+          </g>
+          <g>
+            <polyline class="cls-4" points="86.05 171.87 101.73 149.91 79.77 127.95 148.79 58.93"/>
+            <polyline class="cls-4" points="233.49 171.87 217.81 149.91 239.77 127.95 170.75 58.93"/>
+          </g>
+          <polyline class="cls-4" points="208.39 135.79 159.77 87.16 111.14 135.79"/>
+          <rect class="cls-3" x="151.47" y="125.11" width="16.6" height="16.6" transform="translate(178.41 340.72) rotate(-135)"/>
+          <g>
+            <polyline class="cls-4" points="148.79 18.15 40.56 126.38 67.23 153.04 23.31 206.37"/>
+            <polyline class="cls-4" points="170.75 18.15 278.98 126.38 252.31 153.04 296.23 206.37"/>
+          </g>
+        </g>
+        <g>
+          <g>
+            <path class="cls-4" d="M43.27,438.16c7.59,0,14.59,2.54,20.21,6.8l.15,50.94-24.52.36v-26.24h49.42c4.26,5.62,6.8,12.62,6.8,20.21"/>
+            <path class="cls-4" d="M276.27,438.16c-7.59,0-14.59,2.54-20.21,6.8l-.15,50.94,24.52.36v-26.24h-49.42c-4.26,5.62-6.8,12.62-6.8,20.21"/>
+          </g>
+          <g>
+            <polyline class="cls-4" points="86.05 356.96 101.73 378.92 79.77 400.87 148.79 469.89"/>
+            <polyline class="cls-4" points="233.49 356.96 217.81 378.92 239.77 400.87 170.75 469.89"/>
+          </g>
+          <circle class="cls-3" cx="159.77" cy="484.01" r="4.71"/>
+          <polyline class="cls-4" points="208.39 394.6 159.77 443.23 111.14 394.6"/>
+          <rect class="cls-3" x="151.47" y="388.63" width="16.6" height="16.6" transform="translate(-7.93 790.58) rotate(-135)"/>
+          <g>
+            <polyline class="cls-4" points="170.75 512.24 278.98 404.01 252.31 377.35 296.23 324.02"/>
+            <polyline class="cls-4" points="148.79 512.24 40.56 404.01 67.23 377.35 23.31 324.02"/>
+          </g>
+        </g>
+      </g>
+      <rect class="cls-1" x="256.34" y="470.18" width="24" height="26" transform="translate(536.69 966.36) rotate(180)"/>
+      <rect class="cls-1" x="39.34" y="470.18" width="24" height="26" transform="translate(102.69 966.36) rotate(180)"/>
+      <rect class="cls-1" x="39.34" y="34.18" width="24" height="26" transform="translate(102.69 94.36) rotate(180)"/>
+      <rect class="cls-1" x="256.34" y="34.18" width="24" height="26" transform="translate(536.69 94.36) rotate(180)"/>
+    </g>
+  </g>
+</svg>

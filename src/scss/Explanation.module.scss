@@ -1,0 +1,150 @@
+@use './_scss' as scss;
+
+.Explanation {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+
+    .textContainer {
+        height: 80%;
+        margin: 5% 8%;
+        display: flex;
+        flex-direction: column;
+
+        .title {
+            font-size: scss.$title;
+            font-family: scss.$bold;
+            margin: 0;
+        }
+    }
+
+    .aniContainer {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 65%;
+        height: 90%;
+    }
+
+    .cardContainer {
+        direction: ltr;
+        position: absolute;
+        top: 48%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+        width: 40.5%;
+        height: 72%;
+        padding: 15px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        border-radius: 15px;
+    }
+
+    
+    .allCardsContainer {
+        width: 100%;
+        height: 60%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+        .singleCard {
+            direction: ltr;
+            width: 25%;
+            height: 70%;
+            margin: 0 2% 0 3%;
+            padding: 1%;
+            
+            border-radius: 5px;
+            transform: perspective(2000px) rotateY(0deg);  
+        }
+
+        .singleCardFlip {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            backface-visibility: hidden;
+            transition: transform 0.8s;
+        }
+        .red {
+            background-color: scss.$red;
+        }
+        .blue {
+            background-color: scss.$blue;
+        }
+        .front {
+            background-image: url("../assets/svg/cardPatterns/whiteSmallCardPattern.svg");
+            background-size: 100% 100%;
+            transform: rotateY(0deg);
+        }
+        .back {
+            width: 99%;
+            height: 99.5%;
+            transform: rotateY(180deg);
+        }
+          
+        .singleCard.flipped .front {
+            transform: rotateY(180deg);
+        }
+          
+        .singleCard.flipped .back {
+            transform: rotateY(360deg);
+        }
+        
+        .arrow {
+            width: 4%;
+        }
+    }
+
+    .cardDeck {
+        position: absolute;
+        top: 61%;
+        left: 10%;
+        width: 12%;
+    }
+
+    .explanation {
+        position: absolute;
+        top: 88%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+// מסך חדש
+@media screen and (min-width: 1900px) and (max-height: 1000px) {
+    .Explanation {
+        .allCardsContainer {
+            width: 80%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .textContainer {
+            .title {
+                font-size: scss.$bigTitle;
+                font-family: scss.$bold;
+            }
+        }
+        .cardContainer {
+            width: 28%;
+            height: 75%;
+        }
+        .cardDeck {
+            top: 58%;
+            left: 15%;
+            width: 10%;
+        }
+        .aniContainer {
+            width: 45%;
+        }
+    }
+}

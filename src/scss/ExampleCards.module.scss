@@ -1,0 +1,98 @@
+@use './_scss' as scss;
+
+.ExampleCards {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+
+    .title {
+        position: absolute;
+        margin: 5% 8%;
+
+        font-size: scss.$title;
+        font-family: scss.$bold;
+    }
+
+    p {
+        margin: 4% 0;
+    }
+
+    .cardContainer {
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+        width: 65%;
+        height: 80%;
+        padding: 15px;
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .pattern {
+        width: 35%;
+        height: 70%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        
+        color: scss.$white;
+        font-size: scss.$title;
+        font-family: scss.$bold;
+        
+        border-radius: 20px;
+        background-image: url(../assets/svg/cardPatterns/whiteSmallCardPattern.svg);
+        background-repeat: no-repeat;
+        box-shadow: 
+        0 0 0 10px scss.$grey, 
+        0 0 0 11px scss.$blue, 
+        ;
+        
+        &:hover {
+            box-shadow: 
+            0 0 0 10px scss.$grey, 
+            0 0 0 15px scss.$orange, 
+            ;
+        }
+    }
+    .red {
+        background-image: url(../assets/svg/cardPatterns/redSmallCardPattern.svg);
+        color: scss.$red;
+    }
+    .blue {
+        background-image: url(../assets/svg/cardPatterns/blueSmallCardPattern.svg);
+        color: scss.$blue;
+    }
+    
+    .explanation {
+        position: absolute;
+        top: 84%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+// מסך חדש
+@media screen and (min-width: 1900px) and (max-height: 1000px) {
+    .ExampleCards {
+        .title {
+            font-size: scss.$bigTitle;
+            font-family: scss.$bold;
+        }
+        .cardContainer {
+            width: 48%;
+            height: 70%;
+
+            .pattern {
+                width: 30%;
+            }
+        }
+        .explanation {
+            top: 82%;
+        }      
+    }
+}

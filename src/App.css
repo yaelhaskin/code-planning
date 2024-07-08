@@ -1,0 +1,43 @@
+* {
+  overflow: hidden;
+  direction: rtl;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+
+  background-color: #FAF4D3;
+  color: #00004D;
+
+  font-size: 1rem;
+  font-family: Rubik-Light;
+}
+
+textarea,
+p {
+  position: relative;
+  font-size: 1.3rem;
+  font-family: Rubik-Regular;
+  white-space: pre-line;
+  /* white-space: break-spaces; */
+}
+
+/* p::first-line {
+  background-color: pink;
+  text-indent: -0.3rem;
+  margin-left: -0.3rem;
+} */
+
+img {
+  -webkit-user-drag: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+@font-face {
+  font-family: Rubik-Regular;
+  src: url(../src/assets/fonts/Rubik/static/Rubik-Regular.ttf);
+  font-weight: 1 1000;
+}

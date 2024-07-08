@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1636.35 920.55">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #a01f24;
+      }
+
+      .cls-3 {
+        stroke: #a01f24;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <path class="cls-3" d="M1545.22,21.81v876.93H22.79V21.81h1522.43Z"/>
+      <path class="cls-1" d="M1636.35,0v920.55H0V0h1636.35Z"/>
+      <g>
+        <rect class="cls-2" x="36.52" y="861.98" width="21.04" height="22.8"/>
+        <rect class="cls-2" x="37.15" y="35.48" width="21.04" height="22.8"/>
+        <g>
+          <path class="cls-3" d="M40.24,834.53c6.66,0,12.8,2.23,17.72,5.96l.14,44.67-21.5.31v-23.01h43.33c3.73,4.92,5.96,11.06,5.96,17.72"/>
+          <g>
+            <line class="cls-3" x1="122.91" y1="851.07" x2="70.43" y2="798.6"/>
+            <polyline class="cls-3" points="58.65 739.46 94.55 775.35 70.5 799.39"/>
+            <polyline class="cls-3" points="122.1 850.99 146.14 826.95 180.97 861.77"/>
+          </g>
+          <g>
+            <line class="cls-3" x1="121.04" y1="879.94" x2="41.91" y2="800.82"/>
+            <polyline class="cls-3" points="22.32 729.75 67.97 775.4 41.77 801.6"/>
+            <polyline class="cls-3" points="120.32 880.15 146.52 853.95 190.67 898.1"/>
+          </g>
+          <path class="cls-3" d="M40.87,85.73c6.66,0,12.8-2.23,17.72-5.96l.14-44.67-21.5-.31v23.01s43.33,0,43.33,0c3.73-4.92,5.96-11.06,5.96-17.72"/>
+          <g>
+            <line class="cls-3" x1="123.54" y1="69.19" x2="71.06" y2="121.66"/>
+            <polyline class="cls-3" points="59.28 180.8 95.18 144.91 71.13 120.87"/>
+            <polyline class="cls-3" points="122.73 69.27 146.77 93.31 181.6 58.49"/>
+          </g>
+          <g>
+            <line class="cls-3" x1="121.67" y1="40.32" x2="42.54" y2="119.44"/>
+            <polyline class="cls-3" points="22.95 190.51 68.6 144.86 42.4 118.66"/>
+            <polyline class="cls-3" points="120.95 40.11 147.15 66.31 191.3 22.16"/>
+          </g>
+        </g>
+      </g>
+      <g>
+        <rect class="cls-2" x="1509.06" y="861.98" width="21.04" height="22.8" transform="translate(3039.16 1746.76) rotate(180)"/>
+        <rect class="cls-2" x="1508.43" y="35.48" width="21.04" height="22.8" transform="translate(3037.9 93.76) rotate(180)"/>
+        <g>
+          <path class="cls-3" d="M1526.38,834.53c-6.66,0-12.8,2.23-17.72,5.96l-.14,44.67,21.5.31v-23.01s-43.33,0-43.33,0c-3.73,4.92-5.96,11.06-5.96,17.72"/>
+          <g>
+            <line class="cls-3" x1="1443.71" y1="851.07" x2="1496.19" y2="798.6"/>
+            <polyline class="cls-3" points="1507.97 739.46 1472.08 775.35 1496.12 799.39"/>
+            <polyline class="cls-3" points="1444.52 850.99 1420.48 826.95 1385.65 861.77"/>
+          </g>
+          <g>
+            <line class="cls-3" x1="1445.58" y1="879.94" x2="1524.72" y2="800.82"/>
+            <polyline class="cls-3" points="1544.3 729.75 1498.65 775.4 1524.85 801.6"/>
+            <polyline class="cls-3" points="1446.3 880.15 1420.11 853.95 1375.95 898.1"/>
+          </g>
+          <path class="cls-3" d="M1525.75,85.73c-6.66,0-12.8-2.23-17.72-5.96l-.14-44.67,21.5-.31v23.01s-43.33,0-43.33,0c-3.73-4.92-5.96-11.06-5.96-17.72"/>
+          <g>
+            <line class="cls-3" x1="1443.08" y1="69.19" x2="1495.56" y2="121.66"/>
+            <polyline class="cls-3" points="1507.34 180.8 1471.45 144.91 1495.49 120.87"/>
+            <polyline class="cls-3" points="1443.89 69.27 1419.85 93.31 1385.02 58.49"/>
+          </g>
+          <g>
+            <line class="cls-3" x1="1444.95" y1="40.32" x2="1524.09" y2="119.44"/>
+            <polyline class="cls-3" points="1543.67 190.51 1498.02 144.86 1524.22 118.66"/>
+            <polyline class="cls-3" points="1445.67 40.11 1419.47 66.31 1375.32 22.16"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,108 @@
+@use './_scss' as scss;
+
+.singleCard {
+    direction: ltr;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+    color: scss.$blue;
+    background-color: scss.$white;
+    border: 0.7px solid;
+    border-radius: 5px;
+
+    .suitContainer {
+        width: 10%;
+        height: 13%;
+        padding: 5px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        p {
+            margin: 0;
+            line-height: scss.$bigTitle;
+            font-size: scss.$bigTitle;
+        }
+        img {
+            height: 35%;
+        }
+    }
+
+    .red {
+        color: scss.$red;
+    }
+    .blue {
+        color: scss.$blue;
+    }
+
+    .mediumCard {
+        width: 20%;
+        height: 20%;
+        p {
+            line-height: scss.$title;
+            font-size: scss.$title;
+        }
+        img {
+            height: 50%;
+        }
+    }
+    .smallCard {
+        width: 20%;
+        height: 13%;
+        padding: 5px;
+        img {
+            height: 100%;
+        }
+    }
+
+    .questionMark {
+        width: 15%;
+        margin: 3%;
+        align-self: flex-start;
+        color: scss.$orange;
+        font-size: scss.$title;
+        font-family: scss.$medium;
+    }
+    .flipSuit {
+        align-self: flex-end;
+        transform: rotate(180deg);
+    }
+}
+.redbigCard {
+    border-color:scss.$red;
+    box-shadow: 
+        -8px 8px 0 4px scss.$grey, 
+        -9px 9px 0 5px scss.$blue,
+        -18px 18px 0 4px scss.$grey,
+        -19px 19px 0 5px scss.$red,
+    ;
+}
+.bluebigCard {
+    border-color: scss.$blue;
+    box-shadow: 
+        -8px 8px 0 4px scss.$grey, 
+        -9px 9px 0 5px scss.$red,
+        -18px 18px 0 4px scss.$grey,
+        -19px 19px 0 5px scss.$blue,
+    ;
+}
+.redmediumCard,
+.redsmallCard {
+    border-color:scss.$red;
+    box-shadow: 
+        -1px 1px 0 1px scss.$grey, 
+        -2px 2px 0 1.5px scss.$blue,
+    ;
+}
+.bluemediumCard,
+.bluesmallCard {
+    border-color:scss.$blue;
+    box-shadow: 
+        -1px 1px 0 1px scss.$grey, 
+        -2px 2px 0 1.5px scss.$red,
+    ;
+}

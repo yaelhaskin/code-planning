@@ -1,0 +1,80 @@
+//colors
+$white: #FFFFEE;
+$offwhite: #FAF4D3;
+$red: #A01F24;
+$orange: #FF8200;
+$green: #00916E;
+$blue: #00004D;
+$grey: #D8D8CE;
+$black: #000000;
+
+//sizes
+$startingTitle: 6rem;
+$bigTitle: 3rem;
+$title: 2.2rem;
+$subtitle: 1.5rem;
+$text: 1.3rem;
+$checkBtn: 1.7rem;
+$small: 1rem;
+$vsmall: 0.8rem;
+
+// fonts
+$light: Rubik-Light;
+$regular: Rubik-Regular;
+$medium: Rubik-Medium;
+$bold: Rubik-Bold;
+$extraBold: Rubik-ExtraBold;
+
+@font-face {
+    font-family: Rubik-Light;
+    src: url(../assets/fonts/Rubik/static/Rubik-Light.ttf);
+    font-weight: 1 1000;
+}
+@font-face {
+    font-family: Rubik-Regular;
+    src: url(../assets/fonts/Rubik/static/Rubik-Regular.ttf);
+    font-weight: 1 1000;
+}
+@font-face {
+    font-family: Rubik-Medium;
+    src: url(../assets/fonts/Rubik/static/Rubik-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: Rubik-Bold;
+    src: url(../assets/fonts/Rubik/static/Rubik-Bold.ttf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: Rubik-ExtraBold;
+    src: url(../assets/fonts/Rubik/static/Rubik-ExtraBold.ttf);
+    font-weight: 800;
+}
+
+// animations
+@keyframes growTitleBtn {
+    from { width: 30%; }
+    to { width: 40%; }
+}
+$growTitleBtn: growTitleBtn;
+@keyframes growOtherBtn {
+    from { width: 25%; }
+    to { width: 32%; }
+}
+$growOtherBtn: growOtherBtn;
+
+@keyframes fadeToBlack {
+    from { opacity: 100%; }
+    to { opacity: 0; }
+}
+$fadeToBlack: fadeToBlack;
+
+@keyframes loopSuits {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+$loopSuits: loopSuits;
